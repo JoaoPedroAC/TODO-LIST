@@ -1,0 +1,51 @@
+:root {
+	--backColor: rgb(35, 86, 128);
+	--colorDiv: white;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+html,
+body {
+	height: 100vh;
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+	background: var(--backColor);
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whiteBox {
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px 0 0 30px;
+	width: 50vw;
+  	min-height: 30vh;
+  	background: var(--colorDiv);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+	border: 2px solid var(--backColor);
+	padding-left: 5px;
+}
+ul{
+	list-style-position: inside;
+	list-style: decimal;
+	margin-top: 5px;
+}
+li{
+	margin-top: 5px;
+}
+.apagar{
+	margin-left: 5px;
+	font-size: 12px;
+}
